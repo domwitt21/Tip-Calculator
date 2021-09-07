@@ -1,0 +1,144 @@
+/*      ---STYLE NOTES---
+Color Shades
+    Peach: #CB7258
+    Red: #884950
+    Dark Navy Blue: #252d3f
+    Dark Pink: #7F4D5B
+    Flat violet pink/gray: #7A525A
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,900;1,800;1,900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url(media/1550172.jpg);
+    background-size: auto;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border-radius: 2%;
+    width: 25%;
+    text-align: center;
+    padding: 5%;
+    margin-top: 15%;
+}
+.card aside {
+    margin-bottom: 1%;
+    color: #b47b86;
+    font-weight: 500;
+}
+#bill {
+    margin-bottom: 5%;
+    background-color: #232B3C;
+    border: none;
+    width: 120px;
+    height: 55px;
+    text-align: center;
+    font-size: 30px;
+    color: #CB7258;
+    border: 2px double #CB7258;
+    border-radius: 10%;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #CB7258;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #CB7258;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #CB7258;
+}
+.ten:hover {
+    cursor: pointer;
+    animation: colorFade .5s ease-in-out;
+}
+.fifteen:hover {
+    cursor: pointer;
+    animation: colorFade .5s ease-in-out;
+}
+.twenty:hover {
+    cursor: pointer;
+    animation: colorFade .5s ease-in-out;
+}
+.twentyFive:hover {
+    cursor: pointer;
+    animation: colorFade .5s ease-in-out;
+}
+.ten {
+    background-color: #252d3f;
+    border: none;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin-right: 2%;
+    color: #CB7258;
+    border-radius: 5%;
+}
+.fifteen {
+    background-color: #252d3f;
+    border: none;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #CB7258;
+    border-radius: 5%;
+}
+.twenty {
+    background-color: #252d3f;
+    border: none;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-right: 2%;
+    color: #CB7258;
+    border-radius: 5%;
+}
+.twentyFive {
+    background-color: #252d3f;
+    border: none;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #CB7258;
+    border-radius: 5%;
+}
+.gridContainer {
+}
+
+.card {
+    
+}
+.values {
+    color: #b47b86;
+    margin-top: 10%;
+}
+
+@keyframes colorFade {
+    0% {
+        background-color: #252d3f;
+    }
+    25% {
+        background-color: #F79261;
+    }
+    50% {
+        background-color: #252d3f;
+    }
+    75% {
+        background-color: #F79261;
+    }
+    100% {
+        background-color: #252d3f;
+    }
+}

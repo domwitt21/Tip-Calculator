@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <script src="firstRun.js"></script>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <aside>Bill Amount</aside>
+                <input type="text" maxlength="7" name="bill" id="bill" placeholder="$0.00" required>
+                <div class="gridContainer">
+                    <button class="ten" id="ten" onclick="secondary();">10%</button>
+                    <button class="fifteen" id="fifteen" onclick="taco();">15%</button>
+                    <br>
+                    <button class="twenty" id="twenty" onclick="bars();">20%</button>
+                    <button class="twentyFive" id="twentyFive" onclick="newly();">25%</button>
+                </div>
+                <p id="values" class="values">Tip Total: &#36;0.00</p>
+            </div>
+        </div>
+    </body>
+</html>
